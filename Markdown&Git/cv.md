@@ -36,13 +36,13 @@ function ajaxChart(dateStart,dateEnd) {
        },
     data: {
         vin: document.getElementById('VIN').innerHTML,
-        dateStart: dateStart, //document.getElementById('start-date').value,
-        dateEnd: dateEnd//document.getElementById('end-date').value
+        dateStart: dateStart,
+        dateEnd: dateEnd
     }, success: function (arrayDynamics) {
         dfr.resolve({arrayDynamics: arrayDynamics});
         }
     })
-return dfr;
+    return dfr;
 }
 ```
 
@@ -53,3 +53,26 @@ As part of the team, I completed the project of an information and analytical sy
 which we presented at the international Case-in competition and won first place. 
 The Laravel 8.0 framework was used to implement the project. 
 [Project link](http://case-in-bru.hostingem.ru/indexTask14.php).
+
+##Courses and trainings
+
+---
+Stepik.org - Web Development for Beginners: HTML and CSS.
+
+##English Level
+
+---
+My level of English A2.
+
+##Contacts for communication
+
+---
+Vkontakte: [Milko Vadim](https://vk.com/milko.vadimka)
+
+Instagram: [milko.vadimka](https://www.instagram.com/milko.vadimka/)
+
+E-mail: [milko.vadimka@mail.ru](mailto:milko.vadimka@mail.ru)
+
+Telephone number: +375295869510
+
+---
