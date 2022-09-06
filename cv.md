@@ -1,6 +1,6 @@
 # Milko Vadim
 
-![My photo](http://cdn.bru.by/cache/student/council/2022/img_1_1.jpg)
+![My photo](https://sun9-72.userapi.com/s/v1/if2/lIL2Hk1uo6OkRNVtUBsZRbur3mOFPM75o8pTE-vM9Xb6cAUVz0InEcUxQamnI9LApNBR4GF914U4eSPd8ELHWpzr.jpg?size=200x200&quality=96&crop=428,2,1703,1703&ava=1)
 
 ## Short information
 
