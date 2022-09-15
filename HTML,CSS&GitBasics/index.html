@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Milko Vadim</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div id="block-body">
+    <header>
+        <div class="logo">
+            <a href="#">
+                <span class="use">Milko Vadim</span>
+            </a>
+        </div>
+
+        <div class="top-menu">
+            <ul>
+                <li><nav><a href="#short-information">Short information</a></nav></li>
+                <li><nav><a href="#Skills">Skills</a></nav></li>
+                <li><nav><a href="#Сode-example">Сode example</a></nav></li>
+                <li><nav><a href="#Work-experience">Work experience</a></nav></li>
+                <li><nav><a href="#Courses-and-trainings">Courses and trainings</a></nav></li>
+                <li><nav><a href="#English-Level">English Level</a></nav></li>
+            </ul>
+        </div>
+    </header>
+    </div>
+    <main>
+        <img src="img/imgMilkoVadim.jpg" class="imgPerson">
+        <div class="textContainer">
+            <ul>
+                <li>
+                    <h2 id="short-information">Short information</h2>
+                    <p>
+                        I am a 3rd course student of the Belarusian-Russian University.
+                        I like programming, at the moment I want to develop as
+                        a backend developer in php. I am in a team with my classmates
+                        and already in the third year we are working as a team in the
+                        company GAZSTROYPROM.
+                    </p>
+                </li>
+                <li>
+                    <h2 id="Skills">Skills</h2>
+                    <p>I studied such programming languages as C++,
+                        Java, C#,PHP, HTML, CSS, JavaScript.
+                        Lately I've been
+                        using a PHP framework like Laravel. In my work I use
+                        such programs as PhpStorm, OpenServer, VisualStudioCode,
+                        GitHub. In addition to these programs, I can work with
+                        VisualStudio, CodeBlock, MS SQL Server, IntelliJ IDEA.</p>
+                </li>
+                <li>
+                    <h2 id="Сode-example">Сode example</h2>
+                    <p>
+                    <pre>
+                        <code>
+                        function ajaxChart(dateStart,dateEnd) { <br>
+                            var dfr = $.Deferred();<br>
+                            $.ajax({<br>
+                                url: "/ajaxAnalyticsChartsMachines",<br>
+                                type: 'get',<br>
+                                headers: {<br>
+                                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')<br>
+                                },<br>
+                                data: {<br>
+                                    vin: document.getElementById('VIN').innerHTML,<br>
+                                    dateStart: dateStart,<br>
+                                    dateEnd: dateEnd<br>
+                                }, success: function (arrayDynamics) {<br>
+                                    dfr.resolve({arrayDynamics: arrayDynamics});<br>
+                                }<br>
+                            })<br>
+                            return dfr;<br>
+                        }<br>
+                        </code>
+                    </pre>
+                    </p>
+                </li>
+                <li>
+                    <h2 id="Work-experience">Work experience</h2>
+                    <p>As part of the team, I completed the project of an information and analytical system,
+                        which we presented at the international Case-in competition and won first place.
+                        The Laravel 8.0 framework was used to implement the project. </p>
+                </li>
+                <li>
+                    <h2 id="Courses-and-trainings">Courses and trainings</h2>
+                    <p>Stepik.org - Web Development for Beginners: HTML and CSS.</p>
+                </li>
+                <li>
+                    <h2 id="English-Level">English Level</h2>
+                    <p>My level of English A2.</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/0102vadik/SVCHVS.github.io">Link GitHub</a>
+        <p>2022</p>
+    </footer>
+</div>
+</body>
+</html>
