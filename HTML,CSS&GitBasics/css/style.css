@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F3E8B6;
+    width: 100%;
+}
 .imgPerson{
     display: block;
     margin-left: auto;
@@ -35,7 +44,7 @@ footer{
     background: #2f2f2f;
     color: aliceblue;
     text-align: center;
-    height: 40px;
+    height: 80px;
 }
 footer a{
     text-decoration: none;
@@ -70,17 +79,8 @@ h2 {
     line-height: 24px;
     margin-top: 0;
 }
-.container{
-    margin: 0;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    background: #F3E8B6;
-}
+
 #block-body {
     width: 100%;
     margin: 0 auto;
@@ -88,8 +88,8 @@ body {
     background-color: #e7c27e;
 }
 header {
-    margin-left: 12%;
-    width: 1200px;
+    padding-left:12%;
+    width: 100%;
     height: 80px;
     background-color: #e7c27e;
 }
@@ -121,6 +121,7 @@ header {
 }
 
 main{
+    display: block;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;

@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow: #FFAE2B;
+    --gray:#ACA592;
+}
+.menu-bar{
+    display: flex;
+    background: #000000;
+    height: 80px;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.menu-bar>p{
+    color: var(--yellow);
+    font-family: "Old Standard TT";
+    font-size: 24px;
+}
+.bar{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    align-items:center;
+}
+.bar>ul{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    color:var(--gray);
+    justify-content:space-between;
+}
+.bar>ul>li{
+    font-family: "Old Standard TT";
+    list-style-type: none;
+}
+
+.overview{
+    color: var(--yellow);
+}
+
+.buy-template{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: var(--yellow);
+    width: 147px;
+    height: 52px;
+    border-style: solid;
+
+}
+.uniqueUIKit{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.uniqueUIKit>img{
+    width: 100%;
+    height: 100%;
+    -webkit-filter: invert(100%);
+    filter: brightness(85%);
+}
+
+.centeredOne {
+    font-family: "Old Standard TT";
+    letter-spacing: 2px;
+    color: var(--yellow);
+    font-size: 12px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredTwo {
+    position: absolute;
+    font-family: "Old Standard TT";
+    font-size: 70px;
+    text-align: center;
+    width: 869px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredTree {
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Old Standard TT";
+    font-size: 11px;
+    top: 63%;
+    width: 143px;
+    height: 50px;
+    background-color: var(--yellow);
+    color: #2f2f2f;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.TemplatePagesContainer{
+    background-color: #181511;
+    padding: 120px 110px;
+}
+.testTemplatePages{
+    font-family: "Old Standard TT";
+    font-size: 60px;
+    color:  var(--yellow);
+    text-align: center;
+    margin-bottom: 70px;
+}
+.textOurCoreLayouts{
+    font-family: "Old Standard TT";
+    font-size: 12px;
+    color:  var(--gray);
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.TemplatePages{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-around;
+}
+.textPagesElements{
+    color: var(--gray);
+    text-align: center;
+}
+.TemplatePagesElements{
+    width: 387px;
+    height: 315px;
+    margin-bottom: 30px;
+    border: #4B4136 solid;
+}
+figure{
+    padding: 0 20px;
+}
+.FramePython>img{
+    width: 100%;
+    height: 100%;
+}
+.ourService{
+    padding-top: 170px;
+    padding-bottom: 100px;
+    background-color: #181511;
+}
+.textOurCore{
+    color: var(--gray);
+    font-family: "Old Standard TT";
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.textOurService{
+    color: var(--yellow);
+    font-family: "Old Standard TT";
+    font-size: 60px;
+    text-align: center;
+}
+
+.cardOurService{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardOurService>div{
+    border: #4B4136 solid;
+    padding: 64px 61px;
+}
+.cardOurService>div>figure{
+    width: 278px;
+    height: 222px;
+    margin: 0;
+    padding: 0;
+}
+.cardOurService>div>figure>figcaption>h2{
+    margin-top: 12px;
+    color: var(--yellow);
+    font-family: "Old Standard TT";
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.cardOurService>div>figure>figcaption>h3{
+    margin-top: 15px;
+    color: var(--gray);
+    font-family: "Old Standard TT";
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.cardOurService>div>figure>figcaption>p{
+    margin-top: 13px;
+    color: var(--gray);
+    font-family: "Old Standard TT";
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 26px;
+}
